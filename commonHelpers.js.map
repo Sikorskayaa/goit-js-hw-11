@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["const searchForm = document.querySelector('.form')\nconst list = document.querySelector('.gallery')\nconst loaderEl = document.querySelector('.loader')\n\nsearchForm.addEventListener('submit', onSubmit)\n\n"],"names":["searchForm"],"mappings":"ssBAAA,MAAMA,EAAa,SAAS,cAAc,OAAO,EACpC,SAAS,cAAc,UAAU,EAC7B,SAAS,cAAc,SAAS,EAEjDA,EAAW,iBAAiB,SAAU,QAAQ"}
