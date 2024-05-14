@@ -9,19 +9,18 @@
   </head>
   <body>
   
-    <form class="form">
-      <input type="text" 
-             placeholder="Search Images.." 
-             name="query" 
-            autocomplete="off" 
-             autofocus />
-
-      <button type="submit" class="btn">Search</button>
-    </form>
-    
-    <span class="loader hidden"></span>
-    <div class="gallery"></div>
-
+    <section class="container">
+      <form class="submit-form" action="submit">
+        <input
+          class="search-input"
+          type="search"
+          name="search"
+          placeholder="Search image..."
+        />
+        <button class="search-btn">Search</button>
+      </form>
+      <ul class="gallery"></ul>
+    </section>
 
     <script type="module" src="./main.js"></script>
   </body>
