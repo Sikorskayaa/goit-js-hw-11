@@ -36,13 +36,13 @@ form {
   height: 160px;
 }
 
-.gallery-review {
+.gallery-list {
   display: flex;
   gap: 5px;
   justify-content: center;
 }
 
-.gallery-review-item {
+.gallery-item {
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -51,7 +51,7 @@ form {
   font-size: 14px;
 }
 
-input {
+.search-input {
   color: #808080;
   font-family: inherit;
   font-size: 16px;
@@ -68,16 +68,16 @@ input {
   transition: width 0.4s ease-in-out;
 }
 
-input:focus {
+.search-input:focus {
   border: 1px solid #000000;
   width: 25%;
 }
 
-input::-moz-focus-inner {
-  border: 1px solid #d31616;
-}
 
-.btn {
+.search-btn{
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  opacity: 0px;
   border-radius: 8px;
   background-color: #4e75ff;
   width: 91;
@@ -92,7 +92,7 @@ input::-moz-focus-inner {
   letter-spacing: 0.64px;
 }
 
-.btn:hover {
+.search-btn:hover {
   background-color: #6C8CFF;
   cursor: pointer;
 }

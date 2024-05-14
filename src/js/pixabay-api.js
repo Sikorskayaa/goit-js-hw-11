@@ -1,8 +1,8 @@
- export function getRequest(characteristics) {
+ export function request(inputValue) {
 
-    const BASE_URL = `https://pixabay.com/api/`;
-    const API_KEY = `41768952-3eb5a1819d194e4ebd739434d`
-    return fetch(`${BASE_URL}?key=${API_KEY}&q=${characteristics}&image_type=photo&orientation=horizontal&safesearch=true`)
+    const BASE_URL = 'https://pixabay.com/api/';
+    const API_KEY = '43859237-c6386bdcccc66f068a9509366'
+    return fetch(`${BASE_URL}?key=${API_KEY}&q=${inputValue}&image_type=photo&orientation=horizontal&safesearch=true`)
         .then(resp => {
             if (!resp.ok) {
             throw new Error(resp.statusText)
